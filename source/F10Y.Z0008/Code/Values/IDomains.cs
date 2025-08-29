@@ -6,8 +6,11 @@ using F10Y.T0003;
 namespace F10Y.Z0008
 {
     /// <summary>
-    /// Generally-applicable domains.
+    /// Generally-applicable instance set functionality domain values.
     /// </summary>
+    /// <remarks>
+    /// <inheritdoc cref="Documentation.Project_SelfDescription" path="/summary"/>
+    /// </remarks>
     [ValuesMarker]
     public partial interface IDomains
     {
