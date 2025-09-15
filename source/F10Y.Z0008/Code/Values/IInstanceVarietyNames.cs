@@ -5,6 +5,12 @@ using F10Y.T0003;
 
 namespace F10Y.Z0008
 {
+    /// <summary>
+    /// Generally-applicable instance variety names.
+    /// </summary>
+    /// <remarks>
+    /// <inheritdoc cref="Documentation.Project_SelfDescription" path="/summary"/>
+    /// </remarks>
     [ValuesMarker]
     public partial interface IInstanceVarietyNames
     {
