@@ -19,72 +19,82 @@ namespace F10Y.Z0008
         /// <summary>
         /// <para><value>Attribute</value></para>
         /// </summary>
-        public string Attribute => "Attribute";
+        string Attribute => "Attribute";
 
         /// <summary>
         /// <para><value>C#</value></para>
         /// </summary>
-        public string CSharp => "C#";
+        string CSharp => "C#";
 
         /// <summary>
         /// <para><value>.NET</value></para>
         /// </summary>
-        public string dotNET => ".NET";
+        string dotNET => ".NET";
 
         /// <summary>
         /// <para><value>Element</value></para>
         /// </summary>
-        public string Element => "Element";
+        string Element => "Element";
 
         /// <summary>
         /// <para><value>Examples</value></para>
         /// </summary>
-        public string Examples => "Examples";
+        string Examples => "Examples";
 
         /// <summary>
         /// <para><value>File</value></para>
         /// </summary>
-        public string File => "File";
+        string File => "File";
+
+        /// <summary>
+        /// <para><value>HTML</value></para>
+        /// </summary>
+        string HTML => "HTML";
 
         /// <summary>
         /// <para><value>Names</value></para>
         /// </summary>
-        public string Names => "Names";
+        string Names => "Names";
 
         /// <summary>
         /// <para><value>Node</value></para>
         /// </summary>
-        public string Node => "Node";
+        string Node => "Node";
 
         /// <summary>
         /// <para><value>Octokit</value></para>
         /// </summary>
-        public string Octokit => "Octokit";
+        string Octokit => "Octokit";
 
         /// <summary>
         /// <para><value>Path-Parts</value></para>
         /// </summary>
-        public string PathParts => "Path-Parts";
+        string PathParts => "Path-Parts";
 
         /// <summary>
         /// <para><value>Paths</value></para>
         /// </summary>
-        public string Paths => "Paths";
+        string Paths => "Paths";
 
         /// <summary>
         /// <para><value>Project</value></para>
         /// </summary>
-        public string Project => "Project";
+        string Project => "Project";
+
+        /// <summary>
+        /// <para><value>Static HTML</value></para>
+        /// </summary>
+        string StaticHtml => "Static HTML";
 
         /// <summary>
         /// <para><value>Visual Studio</value></para>
         /// </summary>
-        public string VisualStudio => "Visual Studio";
+        string VisualStudio => "Visual Studio";
 
         /// <summary>
         /// <para><value>XML</value></para>
         /// </summary>
-        public string XML => "XML";
+        string XML => "XML";
 
 #pragma warning restore IDE1006 // Naming Styles
     }

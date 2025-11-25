@@ -18,7 +18,7 @@ namespace F10Y.Z0008.Raw
         /// <summary>
         /// For C#/.NET.
         /// </summary>
-        public string[] N_0001 => new[]
+        string[] N_0001 => new[]
         {
             _Domains.CSharp,
             _Domains.dotNET,
@@ -30,7 +30,7 @@ namespace F10Y.Z0008.Raw
         /// Ordered set, ordered from .NET to Names.
         /// </para>
         /// </summary>
-        public string[] N_0002 => new[]
+        string[] N_0002 => new[]
         {
             _Domains.dotNET,
             _Domains.Project,
@@ -43,7 +43,7 @@ namespace F10Y.Z0008.Raw
         /// <summary>
         /// Example paths and path-parts.
         /// </summary>
-        public string[] N_0003 => new[]
+        string[] N_0003 => new[]
         {
             _Domains.Examples,
             _Domains.Paths,

@@ -15,18 +15,18 @@ namespace F10Y.Z0008
 #pragma warning disable IDE1006 // Naming Styles
 
         [Ignore]
-        public Raw.IDomainSets _Raw => Raw.DomainSets.Instance;
+        Raw.IDomainSets _Raw => Raw.DomainSets.Instance;
 
 #pragma warning restore IDE1006 // Naming Styles
 
 
         /// <inheritdoc cref="Raw.IDomainSets.N_0001"/>
-        public string[] CSharp_NET => _Raw.N_0001;
+        string[] CSharp_NET => _Raw.N_0001;
 
         /// <inheritdoc cref="Raw.IDomainSets.N_0003"/>
-        public string[] Example_PathsAndPathParts => _Raw.N_0003;
+        string[] Example_PathsAndPathParts => _Raw.N_0003;
 
         /// <inheritdoc cref="Raw.IDomainSets.N_0002"/>
-        public string[] ProjectFile_XmlNodeNames => _Raw.N_0002;
+        string[] ProjectFile_XmlNodeNames => _Raw.N_0002;
     }
 }
