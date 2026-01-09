@@ -10,23 +10,23 @@ namespace F10Y.Z0008
     /// Generally-applicable domain sets.
     /// </summary>
     [ValuesMarker]
-    public partial interface IDomainSets
+    public partial interface IDomainNameSets
     {
 #pragma warning disable IDE1006 // Naming Styles
 
         [Ignore]
-        Raw.IDomainSets _Raw => Raw.DomainSets.Instance;
+        Raw.IDomainNameSets _Raw => Raw.DomainNameSets.Instance;
 
 #pragma warning restore IDE1006 // Naming Styles
 
 
-        /// <inheritdoc cref="Raw.IDomainSets.N_0001"/>
+        /// <inheritdoc cref="Raw.IDomainNameSets.N_0001"/>
         string[] CSharp_NET => _Raw.N_0001;
 
-        /// <inheritdoc cref="Raw.IDomainSets.N_0003"/>
+        /// <inheritdoc cref="Raw.IDomainNameSets.N_0003"/>
         string[] Example_PathsAndPathParts => _Raw.N_0003;
 
-        /// <inheritdoc cref="Raw.IDomainSets.N_0002"/>
+        /// <inheritdoc cref="Raw.IDomainNameSets.N_0002"/>
         string[] ProjectFile_XmlNodeNames => _Raw.N_0002;
     }
 }

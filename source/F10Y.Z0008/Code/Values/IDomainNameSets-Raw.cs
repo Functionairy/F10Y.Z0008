@@ -6,11 +6,11 @@ using F10Y.T0003;
 namespace F10Y.Z0008.Raw
 {
     [ValuesMarker]
-    public partial interface IDomainSets
+    public partial interface IDomainNameSets
     {
 #pragma warning disable IDE1006 // Naming Styles
 
-        private static IDomains _Domains => Domains.Instance;
+        private static IDomainNames _DomainNames => DomainNames.Instance;
 
 #pragma warning restore IDE1006 // Naming Styles
 
@@ -20,8 +20,8 @@ namespace F10Y.Z0008.Raw
         /// </summary>
         string[] N_0001 => new[]
         {
-            _Domains.CSharp,
-            _Domains.dotNET,
+            _DomainNames.CSharp,
+            _DomainNames.dotNET,
         };
 
         /// <summary>
@@ -32,12 +32,12 @@ namespace F10Y.Z0008.Raw
         /// </summary>
         string[] N_0002 => new[]
         {
-            _Domains.dotNET,
-            _Domains.Project,
-            _Domains.File,
-            _Domains.XML,
-            _Domains.Node,
-            _Domains.Names,
+            _DomainNames.dotNET,
+            _DomainNames.Project,
+            _DomainNames.File,
+            _DomainNames.XML,
+            _DomainNames.Node,
+            _DomainNames.Names,
         };
 
         /// <summary>
@@ -45,9 +45,9 @@ namespace F10Y.Z0008.Raw
         /// </summary>
         string[] N_0003 => new[]
         {
-            _Domains.Examples,
-            _Domains.Paths,
-            _Domains.PathParts,
+            _DomainNames.Examples,
+            _DomainNames.Paths,
+            _DomainNames.PathParts,
         };
     }
 }

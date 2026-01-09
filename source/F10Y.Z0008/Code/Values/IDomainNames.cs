@@ -6,15 +6,52 @@ using F10Y.T0003;
 namespace F10Y.Z0008
 {
     /// <summary>
-    /// Generally-applicable instance set functionality domain values.
+    /// Instance set domain names.
     /// </summary>
     /// <remarks>
     /// <inheritdoc cref="Documentation.Project_SelfDescription" path="/summary"/>
     /// </remarks>
     [ValuesMarker]
-    public partial interface IDomains
+    [DomainDescriptor(Z0008.IDomainNames.Domain_Names_Constant)]
+    public partial interface IDomainNames
     {
 #pragma warning disable IDE1006 // Naming Styles
+
+        #region Instance Set Related
+
+        /// <summary>
+        /// <para><value>Applicability Names</value></para>
+        /// </summary>
+        const string Applicability_Names_Constant = "Applicability Names";
+
+        /// <inheritdoc cref="Applicability_Names_Constant"/>
+        string Applicability_Names => Applicability_Names_Constant;
+
+        /// <summary>
+        /// <para><value>Domain Names</value></para>
+        /// </summary>
+        const string Domain_Names_Constant = "Domain Names";
+
+        /// <inheritdoc cref="Domain_Names_Constant"/>
+        string Domain_Names => Domain_Names_Constant;
+
+        /// <summary>
+        /// <para><value>Opinion Names</value></para>
+        /// </summary>
+        const string Opinion_Names_Constant = "Opinion Names";
+
+        /// <inheritdoc cref="Opinion_Names_Constant"/>
+        string Opinion_Names => Opinion_Names_Constant;
+
+        /// <summary>
+        /// <para><value>Organization Names</value></para>
+        /// </summary>
+        const string Organization_Names_Constant = "Organization Names";
+
+        /// <inheritdoc cref="Organization_Names_Constant"/>
+        string Organization_Names => Organization_Names_Constant;
+
+        #endregion
 
         /// <summary>
         /// <para><value>Attribute</value></para>
@@ -85,6 +122,15 @@ namespace F10Y.Z0008
         /// <para><value>Static HTML</value></para>
         /// </summary>
         string StaticHtml => "Static HTML";
+
+        /// <summary>
+        /// <para><value>Tickers</value></para>
+        /// (Stock Tickers)
+        /// </summary>
+        const string Tickers_Constant = "Tickers";
+
+        /// <inheritdoc cref="Tickers_Constant"/>
+        string Tickers => Tickers_Constant;
 
         /// <summary>
         /// <para><value>Visual Studio</value></para>

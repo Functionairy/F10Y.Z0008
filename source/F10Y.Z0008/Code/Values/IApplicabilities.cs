@@ -9,54 +9,58 @@ namespace F10Y.Z0008
     /// Generally-applicable applicability values.
     /// </summary>
     [ValuesMarker]
+    [DomainDescriptor(IDomainNames.Applicability_Names_Constant)]
     public partial interface IApplicabilities
     {
         /// <summary>
         /// <para><value>All</value></para>
         /// </summary>
-        public string All => "All";
+        string All => "All";
 
         /// <summary>
         /// <para><value>General</value></para>
         /// </summary>
-        public string General => "General";
+        const string General_Constant = "General";
+
+        /// <inheritdoc cref="General_Constant"/>
+        string General => General_Constant;
 
         /// <summary>
         /// <para><value>Organization</value></para>
         /// </summary>
-        public string Organization => "Organization";
+        string Organization => "Organization";
 
         /// <summary>
         /// <para><value>Machine</value></para>
         /// </summary>
-        public string Machine => "Machine";
+        string Machine => "Machine";
 
         /// <summary>
         /// <para><value>Non-Windows</value></para>
         /// </summary>
-        public string Non_Windows => "Non-Windows";
+        string Non_Windows => "Non-Windows";
 
         /// <summary>
         /// <para><value>Personal</value></para>
         /// </summary>
-        public string Personal => "Personal";
+        string Personal => "Personal";
 
         /// <summary>
         /// <para><value>Project</value></para>
         /// </summary>
-        public string Project => "Project";
+        string Project => "Project";
 
         /// <summary>
         /// <para><value>System</value></para>
         /// </summary>
-        public string System => "System";
+        string System => "System";
 
         /// <summary>
         /// <para><value>Windows</value></para>
         /// </summary>
-        public string Windows => "Windows";
+        string Windows => "Windows";
 
         /// <inheritdoc cref="Non_Windows"/>
-        public string Windows_Non => this.Non_Windows;
+        string Windows_Non => this.Non_Windows;
     }
 }
