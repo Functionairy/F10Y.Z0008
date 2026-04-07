@@ -159,6 +159,14 @@ namespace F10Y.Z0008
         string Project => Project_Constant;
 
         /// <summary>
+        /// <para><value>Samples</value></para>
+        /// </summary>
+        const string Samples_Constant = "Samples";
+
+        /// <inheritdoc cref="Samples_Constant"/>
+        string Samples => Samples_Constant;
+
+        /// <summary>
         /// <para><value>Set</value></para>
         /// </summary>
         const string Set_Constant = "Set";
